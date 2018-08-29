@@ -8,7 +8,7 @@ Table of contents
 <!--ts-->
    * [Technologies Used And Cocoapods.](#technologies-used-and-cocoapods)
    * [Prerequisites](#prerequisites)
-   * [Installation](#clone)
+   * [Clone](#clone)
    * [User Guide](#user-guide)
       * [Sign Up And Sign In](#sign-up-and-sign-in)
       * [Create Group Chat](#create-group-chat)
