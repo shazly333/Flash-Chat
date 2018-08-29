@@ -49,18 +49,16 @@ User Guid:
   
   Create Group Chat:
   ------------------
-  
+
   - To create a new group chat press on the plus button on the upper right of side the screen then enter the name of your new group chat and it will appear on the list of your groups chat.
   - To open group chat room jusr press on its name on the list.
+    
       <p align="center">
-   <img src="images/home.png" width = "200">
-  <img src="images/Listgroup.png" width = "200">
-    </p>
-      <p align="center">
-
-    <img src="images/addgroup.png" width = "200">
-     <img src="images/newchatroom.png" width = "200">
-  </p>
+         <img src="images/home.png" width = "200">
+         <img src="images/Listgroup.png" width = "200">
+        <img src="images/addgroup.png" width = "200">
+          <img src="images/newchatroom.png" width = "200">
+       </p>
   
   Add Friend to your group chat:
   -----------
