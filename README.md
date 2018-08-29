@@ -10,8 +10,10 @@ Table of contents
    * [Prerequisites](#prerequisites)
    * [Installation](#clone)
    * [User Guide](#user-guide)
-      * [Sign up and Sign in](#sign-up-and-sign-in)
+      * [Sign Up And Sign In](#sign-up-and-sign-in)
       * [Create Group Chat](#create-group-chat)
+      * [Add Friend To Your Group Chat](#add-friend-to-your-group-chat)
+      * [Send Messages](#send-messages)
    * [License](#license)
 <!--te-->
 
@@ -33,8 +35,8 @@ Clone:
 =====
   Clone this repo `https://github.com/shazly333/Flash-Chat.git`
   
-User Guid:
-==========
+User Guide:
+===========
 
   Sign up and Sign in:
   --------------------
@@ -63,7 +65,7 @@ User Guid:
   Add Friend to your group chat:
   -----------
   
-  - To add new friend to your group chat, press on the Add Friend button on the upper right side of the screen then enter the email of your friend.
+  - To add new friend to your group chat, press on the Add Friend button on the upper right side of the screen then enter the email of your friend (you can add more friends as you want).
     
     <p align="center">
       <img src="images/addfriend.png" width = "200">
@@ -86,12 +88,18 @@ User Guid:
        <p align="center">
           <img src="images/freindlist.png" width = "200">
       </p>
-    
-## Finished App
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/Flash%20Chat.gif)
-
-
-
+      
+  Send Messages:
+  ---------------
+  
+  - To send a message you should write you message in the text field in the bottom then press the button beside it.
+  - Messages you sent will appear in blue but your friends messages will appear in gray.
+      
+      <p align="center">
+          <img src="images/mes1.png" width = "200">
+          <img src="images/mes2.png" width = "200">
+      </p>
+   
 License:
 =======
 
