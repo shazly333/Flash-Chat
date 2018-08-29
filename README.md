@@ -1,6 +1,7 @@
 # Flash-Chat
-<<<<<<< HEAD
-Learn to make iOS Apps with [The App Brewery](https://www.appbrewery.co) 📱 | Project Stub | (Swift 4.0/Xcode 9) - Flash Chat App
+
+IOS application which enables the user to create online chat rooms and send messages. Firebase is used to host the database.
+
 Table of contents
 =================
 
@@ -8,13 +9,9 @@ Table of contents
    * [Technologies used and cocoapods.](#technologies-used-and-cocoapods)
    * [Prerequisites](#prerequisites)
    * [Installation](#clone)
-   * [User Guide For Customers:](#user-guide-for-customers)
+   * [User Guide](#user-guide)
       * [Sign up and Sign in](#sign-up-and-sign-in)
-      * [Order driver](#order-driver)
-   * [User Guide For Drivers:](#user-guide-for-drivers)
-      * [Sign up and Sign in](#sign-up-and-sign-in-for-driver)
-      * [Get order](#get-order)
-      * [Pick up customer and Reach distination](#pick-up-customer-and-reach-distination)
+      * [Create Group Chat](#create-group-chat)
    * [License](#license)
 <!--te-->
 
@@ -22,11 +19,9 @@ Technologies used and Cocoapods:
 ===========
 
   - Swift 4.0 and Xcode 9.0 are used to implement this project.
-  - Fire base is used to host the database and track the requests between dricers and customers.
-  - Google maps is used to show paths and locations of users.
-  - GeoFire is used to make query to find the nearest driver to the customer.
-  - Alamofire and SwiftyJSON are used to take the response of google map as Json respond and deserializing it.
-  - SVProgressHUD is used to show load ring.
+  - Fire base is used to host the database and track the messages between users.
+  - SVProgressHUD is used to show load ring and error messages.
+  - ChameleonFramework is used to get different nice colours.
   
 Prerequisites:
 =============
@@ -34,16 +29,73 @@ Prerequisites:
   - You Should have MacOS (operation system supported by apple.
   - Xcode IDE.
 
-Clone
+Clone:
 =====
-  Clone this repo `https://github.com/shazly333/Uber.git`
+  Clone this repo `https://github.com/shazly333/Flash-Chat.git`
   
+User Guid:
+==========
+
+  Sign up and Sign in:
+  --------------------
+  
+  - To sign up, press Register buttom in the home view, then enter your email and password and press Register.
+  - To sign in, press Log In buttom in the home view, then enter your email and password and press Log In.
+   <p align="center">
+  <img src="images/home.png" width = "200">
+    <img src="images/login.png" width = "200">
+    <img src="images/signup.png" width = "200">
+  </p>
+  
+  Create Group Chat:
+  ------------------
+  
+  - To create a new group chat press on the plus button on the upper right of side the screen then enter the name of your new group chat and it will appear on the list of your groups chat.
+  - To open group chat room jusr press on its name on the list.
+      <p align="center">
+   <img src="images/home.png" width = "200">
+  <img src="images/Listgroup.png" width = "200">
+    </p>
+      <p align="center">
+
+    <img src="images/addgroup.png" width = "200">
+     <img src="images/newchatroom.png" width = "200">
+  </p>
+  
+  Add Friend to your group chat:
+  -----------
+  
+  - To add new friend to your group chat, press on the Add Friend button on the upper right side of the screen then enter the email of your friend.
+    
+    <p align="center">
+      <img src="images/addfriend.png" width = "200">
+    </p>
+
+  - If this email exists, this message will appear.
+  
+   <p align="center">
+      <img src="images/sfriend.png" width = "200">
+   </p>
+    
+  - If this email not found, error message will appear.
+    
+     <p align="center">
+        <img src="images/sfriend.png" width = "200">
+    </p>
+    
+   - When your friend login in he will find your group chat was added to his group list.
+    
+       <p align="center">
+          <img src="images/freindlist.png" width = "200">
+      </p>
+    
 ## Finished App
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/Flash%20Chat.gif)
 
 
 
-Copyright © The App Brewery
+License:
 =======
-IOS application which enables the user to create online chat rooms and send messages.
->>>>>>> 09e944e77a7200d11d96a055071dabdc3f7a651f
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+Copyright (c) 2018 Mohamed Kamal El-Shazly
